@@ -1,0 +1,28 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: black;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+@keyframes hide {
+    from {
+        transform: rotate(-40deg) translate3d(360px, 0, 0);
+        opacity: 0.8;
+    }
+    to {
+        transform: rotate(-40deg) translate3d(-360px, 0, 0);
+        opacity: 0;
+    }
+}
+
