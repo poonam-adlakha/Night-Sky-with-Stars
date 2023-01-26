@@ -1,4 +1,5 @@
 # Night-Sky-with-Stars
+Made with CSS and JavaScript
 
 [Website Link](https://night-sky-stars.netlify.app/)
 
